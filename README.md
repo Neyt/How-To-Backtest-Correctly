@@ -166,13 +166,24 @@ print(f"Probability of Backtest Overfitting: {results.pbo:.2%}")
 
 ---
 
-## Based On
+## Acknowledgments & Credits
 
-This repository implements methodologies from:
+This repository is entirely based on the groundbreaking work of **[Prof. Marcos Lopez de Prado](https://www.quantresearch.org/)**, one of the most influential figures in modern quantitative finance.
 
-- *Advances in Financial Machine Learning* by Marcos Lopez de Prado (Wiley, 2018)
-- *Machine Learning for Asset Managers* by Marcos Lopez de Prado (Cambridge, 2020)
-- Published research papers on CPCV, DSR, PBO, and meta-labeling
+All concepts, methodologies, and frameworks presented here originate from his research, including:
+
+- **[Advances in Financial Machine Learning](https://www.wiley.com/en-us/Advances+in+Financial+Machine+Learning-p-9781119482086)** (Wiley, 2018) -- The foundational text that introduced Triple-Barrier labeling, Meta-Labeling, CPCV, Deflated Sharpe Ratio, and the systematic approach to avoiding backtest overfitting.
+- **[Machine Learning for Asset Managers](https://www.cambridge.org/core/elements/machine-learning-for-asset-managers/6D9211305EA2E425D33A9F6F1D0F0C2D)** (Cambridge University Press, 2020) -- Further developments on portfolio construction and feature importance.
+- His extensive body of **published research papers** on Combinatorial Purged Cross-Validation, Probability of Backtest Overfitting, Selection Bias under Multiple Testing, and meta-labeling.
+
+**Prof. Lopez de Prado** is the Global Head of Quantitative Research & Development at Abu Dhabi Investment Authority (ADIA), a Professor of Practice at Cornell University, and has published over 50 scientific articles on quantitative finance and machine learning. His work has fundamentally changed how serious practitioners approach strategy development and validation.
+
+> We strongly encourage anyone using this repository to **purchase and read his books**. This repo is a companion guide -- not a replacement for the depth and rigor of the original works.
+
+**Official resources:**
+- Website: [quantresearch.org](https://www.quantresearch.org/)
+- Google Scholar: [Marcos Lopez de Prado](https://scholar.google.com/citations?user=5hG4UOEAAAAJ)
+- Books: [Amazon Author Page](https://www.amazon.com/stores/Marcos-Lopez-de-Prado/author/B00O5XVIOQ)
 
 ---
 
