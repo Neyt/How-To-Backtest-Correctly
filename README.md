@@ -1,6 +1,6 @@
 <div align="center">
 
-# AFML-Framework
+# How To Backtest Correctly
 
 ### Stop Losing Money to Overfitted Backtests.
 
@@ -8,8 +8,8 @@
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Neyt/AFML-Framework/issues)
-[![Stars](https://img.shields.io/github/stars/Neyt/AFML-Framework?style=social)](https://github.com/Neyt/AFML-Framework/stargazers)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Neyt/How-To-Backtest-Correctly/issues)
+[![Stars](https://img.shields.io/github/stars/Neyt/How-To-Backtest-Correctly?style=social)](https://github.com/Neyt/How-To-Backtest-Correctly/stargazers)
 
 ---
 
@@ -21,7 +21,7 @@
 
 ---
 
-## Why This Framework Exists
+## Why This Exists
 
 Most quant traders and asset managers commit the same fatal mistakes:
 
@@ -30,7 +30,7 @@ Most quant traders and asset managers commit the same fatal mistakes:
 - They evaluate performance with a **naive Sharpe Ratio** that ignores multiple testing bias
 - They label data using **fixed-time horizons** that ignore realistic market microstructure
 
-**AFML-Framework** implements the complete scientific pipeline from Lopez de Prado's research to eliminate these pitfalls and build strategies that actually survive in production.
+**This repository** implements the complete scientific pipeline from Lopez de Prado's research to eliminate these pitfalls and build strategies that actually survive in production.
 
 > *"Backtesting while researching is like drinking and driving. Do not research under the influence of a backtest."* -- Marcos Lopez de Prado
 
@@ -113,8 +113,8 @@ The standard Sharpe Ratio is broken. It assumes IID Normal returns and ignores h
 ## Quick Start
 
 ```bash
-git clone https://github.com/Neyt/AFML-Framework.git
-cd AFML-Framework
+git clone https://github.com/Neyt/How-To-Backtest-Correctly.git
+cd How-To-Backtest-Correctly
 pip install -r requirements.txt
 ```
 
@@ -168,7 +168,7 @@ print(f"Probability of Backtest Overfitting: {results.pbo:.2%}")
 
 ## Based On
 
-This framework implements methodologies from:
+This repository implements methodologies from:
 
 - *Advances in Financial Machine Learning* by Marcos Lopez de Prado (Wiley, 2018)
 - *Machine Learning for Asset Managers* by Marcos Lopez de Prado (Cambridge, 2020)
@@ -190,9 +190,9 @@ Contributions are what make the open-source community thrive. Any contributions 
 
 ## Star History
 
-If this framework saved you from deploying an overfitted strategy, consider giving it a star. It helps others find it.
+If this saved you from deploying an overfitted strategy, consider giving it a star. It helps others find it.
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Neyt/AFML-Framework&type=Date)](https://star-history.com/#Neyt/AFML-Framework&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Neyt/How-To-Backtest-Correctly&type=Date)](https://star-history.com/#Neyt/How-To-Backtest-Correctly&Date)
 
 ---
 
